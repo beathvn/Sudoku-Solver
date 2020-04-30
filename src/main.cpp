@@ -7,7 +7,6 @@
 //
 
 #include <iostream>
-#include <vector>
 #include "Sudoku.hpp"
 
 //TODO: refactor
