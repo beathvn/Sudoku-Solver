@@ -1,16 +1,12 @@
-###Sudoku Solver
+#Sudoku Solver
+This is a just 4 fun Project! There are already plenty working Sudoku Solvers out there - nonetheless it's fun to do it on your own :) 
 
 ##Capabilities
-this c++ based program is capable to:
-** solve a given Sudoku
+This c++ based program is capable to:
+* solve a set Sudoku. BUT: The Sudoku has to be set manually in the constructor.
 
-##future Features
-** read in a random sudoku
-** read in a picture of a sudoku
-** Output the Sudoku in a app (or picture)
-** Generate own Sudoku (a correct Sudoku must have just 1 Solution)
-
-###Versions
-#v1.0
-this version can solve a given Sudoku (vectors manually set) 
-and print the solutino out onto the console.
+##Future Features
+1. read in a random sudoku
+2. read in a picture of a sudoku
+3. Output the Sudoku in augmented reality
+4. Generate own Sudoku (a correct Sudoku must have just 1 Solution)

@@ -9,7 +9,7 @@
 #ifndef Sudoku_hpp
 #define Sudoku_hpp
 
-#include <stdio.h>
+#include <cstdio>
 #include <vector>
 #include <iostream>
 
@@ -19,7 +19,7 @@ using std::vector;
 
 class Sudoku {
 private:
-    vector<vector<vector<int>>> myVec;
+    vector<vector<vector<int>>> data;
     
     bool isCellSet (const int& i, const int& j);
     int getSetNumber (const int& givenRow, const int& givenColumn);
